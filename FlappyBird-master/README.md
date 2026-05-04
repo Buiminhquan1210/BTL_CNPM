@@ -23,7 +23,7 @@ npm install
 npm start
 ```
 
-Mặc định dev server sẽ mở trang trên http://localhost:3000 (hoặc mở thủ công trình duyệt tới địa chỉ đó).
+Mặc định dev server sẽ mở trang trên http://localhost:3000 
 
 ## Build production
 
