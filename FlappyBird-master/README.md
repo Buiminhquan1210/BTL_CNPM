@@ -1,4 +1,4 @@
-# Flappy Bird (Clone)
+# Flappy Bird
 
 Game Flappy Bird viết bằng JavaScript, sử dụng thư viện p5.js và đóng gói bằng webpack.
 
