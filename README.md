@@ -1,4 +1,4 @@
-# Flappy Bird
+# Flappy Bird 
 
 Game Flappy Bird viết bằng JavaScript, sử dụng thư viện p5.js và đóng gói bằng webpack.
 
@@ -7,7 +7,7 @@ Game Flappy Bird viết bằng JavaScript, sử dụng thư viện p5.js và đ�
 - Thư viện: `p5.js`
 - Trình đóng gói: `webpack` (Webpack 5)
 
-Demo gốc: https://barzin144.github.io/FlappyBird/
+Repository: https://github.com/Buiminhquan1210/BTL_CNPM
 
 ## Yêu cầu
 
@@ -23,13 +23,7 @@ npm install
 npm start
 ```
 
-Mặc định dev server sẽ mở trang trên http://localhost:8080 (hoặc mở thủ công trình duyệt tới địa chỉ đó).
-
-Nếu muốn chạy trên cổng khác:
-
-```bash
-npx webpack-dev-server --config webpack.dev.js --open --port 8081
-```
+Mặc định dev server sẽ mở trang trên http://localhost:3000 
 
 ## Build production
 
@@ -50,4 +44,6 @@ Kết quả build nằm trong thư mục `dist` (hoặc `build` tùy cấu hình
 - Nếu gặp lỗi về `webpack-dev-server` khi chạy `npm start`, chạy `npm install` trong thư mục dự án rồi thử lại.
 - Để push lên GitHub: `git add . && git commit -m "Update README" && git push`.
 
-![flappyBird](./flappyBird.png)
+## Links
+
+- Repository: https://github.com/Buiminhquan1210/BTL_CNPM/tree/main/FlappyBird-master
