@@ -1,27 +1,53 @@
-# FlappyBird
+# Flappy Bird (Clone)
 
-flappy bird game with javascript and P5.js library
+Game Flappy Bird viết bằng JavaScript, sử dụng thư viện p5.js và đóng gói bằng webpack.
 
-- P5.js 1.4.0 _for make game loop_
-- Webpack 5 _for module bundling_
+## Tổng quan
 
-[Live Demo](https://barzin144.github.io/FlappyBird/)
+- Thư viện: `p5.js`
+- Trình đóng gói: `webpack` (Webpack 5)
 
-## Available Scripts
+Demo gốc: https://barzin144.github.io/FlappyBird/
 
-In the project directory, you can run:
+## Yêu cầu
 
-### `npm start`
+- Node.js (LTS) và `npm`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
+## Chạy trên máy local
 
-### `npm run build`
+Mở PowerShell hoặc terminal, sau đó chạy các lệnh sau:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd C:\Users\PC\Downloads\FlappyBird-master\FlappyBird-master
+npm install
+npm start
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Mặc định dev server sẽ mở trang trên http://localhost:8080 (hoặc mở thủ công trình duyệt tới địa chỉ đó).
+
+Nếu muốn chạy trên cổng khác:
+
+```bash
+npx webpack-dev-server --config webpack.dev.js --open --port 8081
+```
+
+## Build production
+
+```bash
+npm run build
+```
+
+Kết quả build nằm trong thư mục `dist` (hoặc `build` tùy cấu hình). Bạn có thể deploy nội dung này lên GitHub Pages hoặc hosting tĩnh.
+
+## Cấu trúc chính
+
+- `src/` — mã nguồn và assets
+- `webpack.*.js` — cấu hình webpack
+- `package.json` — scripts và dependencies
+
+## Ghi chú
+
+- Nếu gặp lỗi về `webpack-dev-server` khi chạy `npm start`, chạy `npm install` trong thư mục dự án rồi thử lại.
+- Để push lên GitHub: `git add . && git commit -m "Update README" && git push`.
 
 ![flappyBird](./flappyBird.png)
