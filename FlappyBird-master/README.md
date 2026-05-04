@@ -23,13 +23,7 @@ npm install
 npm start
 ```
 
-Mặc định dev server sẽ mở trang trên http://localhost:8080 (hoặc mở thủ công trình duyệt tới địa chỉ đó).
-
-Nếu muốn chạy trên cổng khác:
-
-```bash
-npx webpack-dev-server --config webpack.dev.js --open --port 8081
-```
+Mặc định dev server sẽ mở trang trên http://localhost:3000 (hoặc mở thủ công trình duyệt tới địa chỉ đó).
 
 ## Build production
 
@@ -49,3 +43,7 @@ Kết quả build nằm trong thư mục `dist` (hoặc `build` tùy cấu hình
 
 - Nếu gặp lỗi về `webpack-dev-server` khi chạy `npm start`, chạy `npm install` trong thư mục dự án rồi thử lại.
 - Để push lên GitHub: `git add . && git commit -m "Update README" && git push`.
+
+## Links
+
+- Repository: https://github.com/Buiminhquan1210/BTL_CNPM/tree/main/FlappyBird-master
